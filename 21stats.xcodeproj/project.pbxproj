@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F6D8C8813E041BE009B6D54 /* StatPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D8C8713E041BE009B6D54 /* StatPrinter.m */; };
 		0FD51C1613DF305B00D9D96F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD51C1513DF305B00D9D96F /* Foundation.framework */; };
 		0FD51C1913DF305B00D9D96F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD51C1813DF305B00D9D96F /* main.m */; };
 		0FD51C1D13DF305B00D9D96F /* _1stats.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0FD51C1C13DF305B00D9D96F /* _1stats.1 */; };
+		0FD51C2913DF318C00D9D96F /* Dealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD51C2813DF318C00D9D96F /* Dealer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +28,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F6D8C8613E041BE009B6D54 /* StatPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatPrinter.h; sourceTree = "<group>"; };
+		0F6D8C8713E041BE009B6D54 /* StatPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatPrinter.m; sourceTree = "<group>"; };
 		0FD51C1113DF305B00D9D96F /* 21stats */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 21stats; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD51C1513DF305B00D9D96F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0FD51C1813DF305B00D9D96F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0FD51C1B13DF305B00D9D96F /* 21stats-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "21stats-Prefix.pch"; sourceTree = "<group>"; };
 		0FD51C1C13DF305B00D9D96F /* _1stats.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _1stats.1; sourceTree = "<group>"; };
+		0FD51C2713DF318C00D9D96F /* Dealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dealer.h; sourceTree = "<group>"; };
+		0FD51C2813DF318C00D9D96F /* Dealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dealer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				0FD51C1813DF305B00D9D96F /* main.m */,
+				0F6D8C8613E041BE009B6D54 /* StatPrinter.h */,
+				0F6D8C8713E041BE009B6D54 /* StatPrinter.m */,
+				0FD51C2713DF318C00D9D96F /* Dealer.h */,
+				0FD51C2813DF318C00D9D96F /* Dealer.m */,
 				0FD51C1C13DF305B00D9D96F /* _1stats.1 */,
 				0FD51C1A13DF305B00D9D96F /* Supporting Files */,
 			);
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FD51C1913DF305B00D9D96F /* main.m in Sources */,
+				0FD51C2913DF318C00D9D96F /* Dealer.m in Sources */,
+				0F6D8C8813E041BE009B6D54 /* StatPrinter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +239,7 @@
 				0FD51C2213DF305B00D9D96F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
